@@ -7216,14 +7216,7 @@
                         }
                     },
                     tooltip: {
-                        callbacks: {
-                            title: function(context) {
-                                return 'Distance: ' + context[0].parsed.x.toFixed(0) + 'm';
-                            },
-                            label: function(context) {
-                                return context.dataset.label + ': ' + context.parsed.y.toFixed(1) + 'm';
-                            }
-                        }
+                        enabled: false
                     }
                 },
                 scales: {
